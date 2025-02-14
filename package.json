@@ -1,0 +1,30 @@
+{
+  "name": "pantones",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI to generate random images and get their color palette, the same technology uses K-means clustering to get colors. And sending the finished result to the Telegram channel.",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifaus/pantones.git"
+  },
+  "author": "lifaus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lifaus/pantones/issues"
+  },
+  "homepage": "https://github.com/lifaus/pantones#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "ml-kmeans": "^6.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "sharp": "^0.33.5"
+  }
+}
